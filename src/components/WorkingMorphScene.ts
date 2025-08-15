@@ -244,7 +244,7 @@ export class WorkingMorphScene extends Phaser.Scene {
     })
     
     // Add instructions
-    this.add.text(50, 520, 'WASD/Arrow Keys: Move | W: Jump | SPACE: Horizontal Shot | X: Vertical Shot', {
+    this.add.text(50, 520, 'WASD/Arrow Keys: Move | W: Jump | SPACE: Horizontal Shoot | X: Vertical Shoot', {
       fontSize: '14px',
       color: '#000000'
     })
