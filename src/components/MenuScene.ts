@@ -1,4 +1,4 @@
-import Phaser from 'phaser'
+import * as Phaser from 'phaser';
 import { soundAssets } from '../assets/SoundAssets'
 
 export class MenuScene extends Phaser.Scene {
