@@ -1,0 +1,30 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Morph-inspired character design -->
+  <!-- Main body - rounded square with gradient -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main body -->
+  <rect x="4" y="6" width="24" height="24" rx="4" ry="4" fill="url(#bodyGradient)" stroke="#1e1b4b" stroke-width="1"/>
+  
+  <!-- Morph "M" symbol -->
+  <path d="M10 14 L12 18 L14 14 L16 18 L18 14" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Eyes -->
+  <circle cx="12" cy="12" r="1.5" fill="white"/>
+  <circle cx="20" cy="12" r="1.5" fill="white"/>
+  <circle cx="12" cy="12" r="0.8" fill="#1e1b4b"/>
+  <circle cx="20" cy="12" r="0.8" fill="#1e1b4b"/>
+  
+  <!-- Tech accent lines -->
+  <rect x="6" y="8" width="8" height="1" fill="url(#accentGradient)" opacity="0.7"/>
+  <rect x="18" y="8" width="8" height="1" fill="url(#accentGradient)" opacity="0.7"/>
+</svg>

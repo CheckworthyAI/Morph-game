@@ -1,0 +1,35 @@
+<svg width="48" height="32" viewBox="0 0 48 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="birdGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="eyeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#00d4ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0066ff;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Bird body -->
+  <ellipse cx="24" cy="16" rx="18" ry="10" fill="url(#birdGradient)" stroke="#4a5568" stroke-width="1"/>
+  
+  <!-- Wing (animated) -->
+  <path d="M8 12 Q2 8 6 6 Q12 8 16 12 Q12 16 6 14 Q2 16 8 12" fill="url(#birdGradient)" opacity="0.8">
+    <animateTransform attributeName="transform" type="rotate" values="0 12 12;-15 12 12;0 12 12;15 12 12;0 12 12" dur="0.8s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Tail -->
+  <path d="M42 16 Q46 12 48 16 Q46 20 42 16" fill="url(#birdGradient)" opacity="0.9"/>
+  
+  <!-- Eye -->
+  <circle cx="18" cy="13" r="3" fill="url(#eyeGlow)"/>
+  <circle cx="19" cy="12" r="1" fill="#000"/>
+  
+  <!-- Beak -->
+  <path d="M6 16 L2 15 L6 14" fill="#ffa500" stroke="#ff8c00" stroke-width="0.5"/>
+  
+  <!-- Morph logo symbol on body -->
+  <text x="24" y="20" font-family="monospace" font-size="8" fill="#ffffff" text-anchor="middle" opacity="0.7">M</text>
+</svg>
