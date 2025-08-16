@@ -758,7 +758,7 @@ export class WorkingMorphScene extends Phaser.Scene {
       
       <div style="margin-bottom: 20px;">
         <label style="display: block; margin-bottom: 10px; font-weight: bold;">Your Solution:</label>
-        <textarea id="codeEditor" style="width: 100%; height: 200px; font-family: monospace; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">${problem.starterCode}</textarea>
+        <textarea id="codeEditor" style="width: 100%; height: 200px; font-family: monospace; font-size: 14px; line-height: 1.4; color: #222; background: #f9f9f9; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">${problem.starterCode}</textarea>
       </div>
       
       <div style="margin-bottom: 20px;">
